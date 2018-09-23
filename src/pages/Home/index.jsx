@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './style.css';
 export default class Home extends Component {
   constructor(props) {
     super(props);
@@ -36,9 +36,35 @@ export default class Home extends Component {
 
   render() {
     return (
-      <div>
-      hello
+<div class="grid">
+    <div class="item item--full">
+      <div class="item__details">
+         jujubes cheesecake
       </div>
+    </div>
+    <div class="item item--full">
+      <div class="item__details">
+         jujubes cheesecake
+      </div>
+    </div>
+    <div class="item item--full">
+      <div class="item__details">
+         jujubes cheesecake
+      </div>
+    </div>
+    <div class="item item--full">
+      <div class="item__details">
+         jujubes cheesecake
+      </div>
+    </div>
+    <div class="item item--full">
+      <div class="item__details">
+         jujubes cheesecake
+      </div>
+    </div>
+    
+  </div>
+
     );
   }
 }
